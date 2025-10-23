@@ -1,6 +1,6 @@
 def add_numbers(a, b):
     """Add two numbers together."""
-    return a + b
+    return a - b  # BUG: This should be + not -
 
 
 def multiply_numbers(a, b):
